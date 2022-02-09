@@ -14,13 +14,13 @@ public class MyFirstArray {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter the number of elements in the array: ");
-        int n = Integer.parseInt(scanner.next());
+        int n = scanner.nextInt();
         int [] myArray = new int[n];
         int sumEven = 0;
         int sumOdd = 0;
         for (int i = 0; i < n; i++) {
             System.out.printf("Please enter %d element: ", i + 1);
-            myArray[i] = Integer.parseInt(scanner.next());
+            myArray[i] = scanner.nextInt();
             if (myArray[i]%2==0){
                 sumEven += myArray[i];
             }
