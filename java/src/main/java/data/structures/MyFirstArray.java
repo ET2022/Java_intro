@@ -83,7 +83,7 @@ public class MyFirstArray {
         }
         for (int i = 0; i < arr.length; ++i) {
             sum += arr[i];
-            System.out.println(arr[i]);
+          //  System.out.println(arr[i]);
         }
         System.out.printf("The sum of the first N members of the Fibonacci series: %d%n", sum);
     }
